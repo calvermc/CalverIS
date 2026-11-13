@@ -1,0 +1,12 @@
+konst namaAplikasi = "CalverIS"
+variabel umur = 18
+
+fungsi sapa(nama) {
+    kembali "Halo, " + nama
+}
+
+jika (umur >= 17) {
+    tampilkan(sapa(namaAplikasi))
+} kalau_tidak {
+    tampilkan("Selamat belajar!")
+}

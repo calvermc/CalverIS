@@ -1,0 +1,30 @@
+html {
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demo CalverIS</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1 id="judul">Halo dari CalverIS</h1>
+    <button id="tombol">Klik saya</button>
+  </main>
+</body>
+</html>
+}
+
+css {
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+h1 { color: #2457c5; }
+}
+
+javascript {
+const tombol = document.getElementById("tombol");
+tombol.addEventListener("click", () => {
+  document.getElementById("judul").textContent = "Berhasil!";
+});
+}

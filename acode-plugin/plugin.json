@@ -1,0 +1,19 @@
+{
+  "id": "com.calver.calveris",
+  "name": "CalverIS Language Support",
+  "version": "0.2.0",
+  "main": "main.js",
+  "readme": "readme.md",
+  "minVersionCode": 292,
+  "license": "MIT",
+  "keywords": [
+    "calveris",
+    "cvis",
+    "indonesian",
+    "language",
+    "syntax"
+  ],
+  "author": {
+    "name": "Calver"
+  }
+}

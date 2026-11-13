@@ -1,0 +1,19 @@
+html {
+<h1>Contoh polyglot CalverIS</h1>
+}
+
+javascript {
+const pesan = "JavaScript tetap JavaScript";
+console.log(pesan);
+}
+
+python {
+def sapa(nama):
+    return f"Halo {nama}"
+}
+
+dart {
+void main() {
+  print('Halo dari Dart');
+}
+}
